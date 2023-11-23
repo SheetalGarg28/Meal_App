@@ -1,0 +1,338 @@
+/* Set margin and padding to 0 for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Style for header */
+
+header{
+    display: flex;
+    margin: 20px;
+}
+
+/* Style for logo image */
+#logo{
+    height: 40px;
+}
+
+/* Style for header links */
+header a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Style for header links on hover */
+header a:hover{
+    text-decoration: underline;
+}
+
+/* Style for container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#search-box{
+    display: inline;
+}
+
+#search-button{
+   
+    border-radius:25px ;
+}
+
+
+@media (min-width: 1200px){
+    .container search-button{
+        max-width: 350px;
+    }
+}
+
+/* Style for input field */
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+}
+
+/* Style for button */
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Style for meal containers */
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* Set background color */
+    /* background-color: lightgray */
+}
+
+/* Style for meal images */
+.meal img {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* ?margin-left: 20px; */
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff5945;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: rgb(126, 126, 138);
+}
+
+.description {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************/
+
+
+.btn2 {
+    height: 20%;
+    width: 10%;
+    margin-left: 65%;
+}
+
+.bg-nav-body {
+    background-color: rgb(150, 164, 164);
+}
+
+.carousel-inner img {
+    width: 1263px;
+    height: 500px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap; 
+}
+
+/*NEWSLETTER*/
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 130px;
+   /* background-image:url("HeaderImg/newsbg1.jfif") ;*/
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+/*footer*/
+.foo{
+    margin-top: 25px;
+    width: 1263px;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .row img{
+    width: 200px;
+    height: 100px;
+}
+footer .gateway img{
+    width: 300px;
+    height: 50px;
+}
+
+footer .follow i:hover ,footer a:hover{
+    color: #088178;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
+/****************************************************/
+
